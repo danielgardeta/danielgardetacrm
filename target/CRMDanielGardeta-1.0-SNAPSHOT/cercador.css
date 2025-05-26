@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url('fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url('fonts/Lato/Lato-Bold.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: sans-serif;
+    width: 100%;
+    background: #fff;
+    padding: 33px 30px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+table {
+   border-spacing: 0px;
+
+    table-layout: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+th {
+     padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: #808080;
+    line-height: 1.4;
+    text-align: center;
+}
+
+td {
+    border: inset 0px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: #808080;
+    line-height: 1.4;
+    text-align: center;
+
+}
+
+form{
+    width: 40%;
+    border-radius: 20px;
+    background-color: #f8f6ff;
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+input, select{
+    padding: 5px 5px 5px 5px;
+}
+input[type="submit"]{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #6c7ae0;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin: 10px 10px 10px 100px;
+}
+input[type="submit"]:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+tr:nth-child(even){
+    background-color: #f8f6ff;
+}
+.id-col {
+    width: 50px;
+    max-width: 60px;
+    white-space: nowrap; 
+}
+
+
+
+
+
