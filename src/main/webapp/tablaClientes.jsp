@@ -48,11 +48,11 @@
                     if (buscar != null) {
                         sql = "SELECT * FROM clientes WHERE nombre LIKE ? OR apellido LIKE ? OR email LIKE ? OR empresa LIKE ?";
                         ps = conn.prepareStatement(sql);
-                        String patron = "%" + buscar + "%";
-                        ps.setString(1, patron);
-                        ps.setString(2, patron);
-                        ps.setString(3, patron);
-                        ps.setString(4, patron);
+                        String igual = "%" + buscar + "%";
+                        ps.setString(1, igual);
+                        ps.setString(2, igual);
+                        ps.setString(3, igual);
+                        ps.setString(4, igual);
                     } else {
                         sql = "SELECT * FROM clientes";
                         ps = conn.prepareStatement(sql);
