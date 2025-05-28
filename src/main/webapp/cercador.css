@@ -33,29 +33,20 @@ table {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+                width: 100%;
 }
 
 th {
-     padding-right: 10px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-family: Lato-Regular;
-    font-size: 20px;
-    color: #808080;
-    line-height: 1.4;
-    text-align: center;
+     border: 1px solid #ccc;
+                padding: 8px;
+                text-align: left;
 }
 
 td {
-    border: inset 0px;
-    padding-right: 10px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-family: Lato-Regular;
-    font-size: 20px;
-    color: #808080;
-    line-height: 1.4;
-    text-align: center;
+    border: 1px solid #ccc;
+                padding: 8px;
+                text-align: left;
 
 }
 
